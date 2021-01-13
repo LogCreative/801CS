@@ -7,75 +7,75 @@
 ::--------------------------------------------------
 echo.
 set/p a=【命令】
-if %a%==help (
+if /i %a%==help (
 type E:\801CS\system\highhelp.txt
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==rule (
+if /i %a%==rule (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==name (
+if /i %a%==name (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==meeting (
+if /i %a%==meeting (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==talk (
+if /i %a%==talk (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==talkall (
+if /i %a%==talkall (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==as (
+if /i %a%==as (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==lisay (
+if /i %a%==lisay (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==cls (
+if /i %a%==cls (
 cls
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==color (
+if /i %a%==color (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==about (
+if /i %a%==about (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==pro (
+if /i %a%==pro (
 echo 高级模式下不能使用此命令。请转换至普通的模式。
 echo 1.需要模式：普通模式	可输入命令：normal或者normalnoword
 echo 2.需要模式：精简模式	可输入命令：easy或者easynoword
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==exit (
+if /i %a%==exit (
 color 07
 for /l %%a in (25 -1 3) do (
 	set /a "cols=30+%%a*2"
@@ -83,48 +83,48 @@ for /l %%a in (25 -1 3) do (
 )
 exit
 )
-if %a%==uninstall (
+if /i %a%==uninstall (
 color 4f
 "E:\801CS\system\uninstall\uninstall.bat"
 )
-if %a%==retest (
+if /i %a%==retest (
 del E:\801CS\system\check\checked.txt
 "E:\801CS\八一班大巢管理系统普通版.bat"
 )
-if %a%==wincmd (
+if /i %a%==wincmd (
 set/p b=【windows命令】
 %b%
 "E:\801CS\system\main\HighCommand.bat"
 )
-if %a%==fix (
+if /i %a%==fix (
 "E:\801CS\backup\backup.bat"
 )
-if %a%==easy (
+if /i %a%==easy (
 cls
 "E:\801CS\system\mode\EasyMode.bat"
 )
-if %a%==easynoword (
+if /i %a%==easynoword (
 cls
 title 801CS-EasyMode
 echo 已转换至精简模式。
 echo.
 "E:\801CS\system\main\EasyCommand.bat"
 )
-if %a%==normal (
+if /i %a%==normal (
 cls
 "E:\801CS\八一班大巢管理系统.bat"
 )
-if %a%==normalnoword (
+if /i %a%==normalnoword (
 cls
 title 801CS-NormalMode
 echo 已转换至普通模式。
 echo.
 "E:\801CS\system\color\color3.bat"
 )
-if %a%==1system (
+if /i %a%==1system (
 "E:\801CS\system\1system\1system2.bat"
 )
-if %a%==allhelp (
+if /i %a%==allhelp (
 type E:\801CS\system\allhelp.txt
 "E:\801CS\system\main\EasyCommand.bat"
 )
