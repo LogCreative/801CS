@@ -5,6 +5,7 @@
 ::Document 0027 -E:\801CS\system\main\EasyCommand.bat
 ::2014/6/4
 ::--------------------------------------------------
+:Command
 echo.
 set/p a=【命令】
 if /i %a%==help (
@@ -112,3 +113,6 @@ echo 普通模式下不能使用此命令。请转换至更高级的模式。
 echo 需要模式：高级模式	可输入命令：high或者highnoword
 "E:\801CS\system\main\EasyCommand.bat"
 )
+mshta vbscript:msgbox("“%a%”不是 801CS（精简模式） 中可用的命令。请确认命令的拼写是否有误。",16,"801CS")(window.close)
+cls
+goto Command

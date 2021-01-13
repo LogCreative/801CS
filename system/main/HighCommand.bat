@@ -5,6 +5,7 @@
 ::Document 0028 -E:\801CS\system\main\HighCommand.bat
 ::2014/6/4
 ::--------------------------------------------------
+:Command
 echo.
 set/p a=【命令】
 if /i %a%==help (
@@ -128,3 +129,6 @@ if /i %a%==allhelp (
 type E:\801CS\system\allhelp.txt
 "E:\801CS\system\main\EasyCommand.bat"
 )
+mshta vbscript:msgbox("“%a%”不是 801CS（高级模式） 中可用的命令。请确认命令的拼写是否有误。",16,"801CS")(window.close)
+cls
+goto Command
