@@ -1,56 +1,56 @@
 @echo off
 set/p a=【代码（31~39，及其他）】
 if %a%==31 (
-echo QQ号：2366053277
+echo QQ号：
 echo 昵称：纵家豪
 echo 群昵称：---
 echo 真实姓名：纵家豪
 )
 if %a%==32 (
-echo QQ号：1471930887
+echo QQ号：
 echo 昵称：奈何桥的忧伤
 echo 群昵称：王玥
 echo 真实姓名：王玥
 )
 if %a%==33 (
-echo QQ号：2250540230
+echo QQ号：
 echo 昵称：先生，咬杀！！！
 echo 群昵称：张千
 echo 真实姓名：张千
 )
 if %a%==34 (
-echo QQ号：501235932
+echo QQ号：
 echo 昵称：hhhhhh
 echo 群昵称：郑思治（大号）
 echo 真实姓名：郑思治（大号）
 )
 if %a%==35 (
-echo QQ号：1424295366
+echo QQ号：
 echo 昵称：---（无）
 echo 群昵称：郑思治（小号）
 echo 真实姓名：郑思治（小号）
 )
 if %a%==36 (
-echo QQ号：2655134764
+echo QQ号：
 echo 昵称：&沐筱薇^
 echo 群昵称：吴佳薇
 echo 真实姓名：吴佳薇
 echo 【注意】根据近期调查发现，大部分时间非此人在线，为他人，小心交友不慎。
 )
 if %a%==37 (
-echo QQ号：2716328314
+echo QQ号：
 echo 昵称：失去的无法复原
 echo 群昵称：刘畅
 echo 真实姓名：刘畅
 )
 if %a%==38 (
-echo QQ号：1328512900
+echo QQ号：
 echo 昵称：比你纯多了
 echo 群昵称：许蕾
 echo 真实姓名：许蕾
 )
 if %a%==39 (
-echo QQ号：1249830288
+echo QQ号：
 echo 昵称：忧~~昵小爱
 echo 群昵称：梁茜
 echo 真实姓名：梁茜
