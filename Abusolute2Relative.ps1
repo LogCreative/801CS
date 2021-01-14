@@ -7,6 +7,10 @@
 # Please use command ".\Abusolute2Relative.ps1"
 # to run this program in PowerShell Terminal.
 
+# You need to install a higher version of Powershell (>6.2)
+# to run this script for replacing.
+# https://github.com/PowerShell/PowerShell/releases
+
 # For every batch file -Recurse
 Get-ChildItem . '*.bat' -Force -Recurse | ForEach-Object -Process {
 
@@ -14,6 +18,6 @@ Get-ChildItem . '*.bat' -Force -Recurse | ForEach-Object -Process {
 
     (Get-Content $file)|
         ForEach-Object { $_ -replace 'E:\\801CS','.'} |      # Change Abusolute Position
-        Out-File $file -Encoding utf8 -Force               # TODO: Output file with Chinese Encoding? gbk?
+        Out-File $file -Encoding 936 -Force               # TODO: Output file with Chinese Encoding? gbk?  It's still unable to output in Powershell 7.1
 
 }
