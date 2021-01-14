@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0005 -E:\801CS\system\color\color.bat
+::Document 0005 -.\system\color\color.bat
 ::2014/6/4
 ::--------------------------------------------------
 cls
@@ -26,8 +26,8 @@ echo.
 echo 如07显示背景为黑色，字体为白色。
 echo.
 set/p a=【颜色】
-echo color %a%>E:\801CS\system\color\color3.bat
-echo "E:\801CS\system\main\CCCommand.bat">>E:\801CS\system\color\color3.bat
+echo color %a%>.\system\color\color3.bat
+echo ".\system\main\CCCommand.bat">>.\system\color\color3.bat
 color %a%
 echo.
 echo 您现在的颜色已成为
@@ -36,4 +36,4 @@ echo.
 echo 您还可以在以后控制中心输入命令时，用color命令进行修改。
 echo.
 pause
-"E:\801CS\system\1system\1system.bat"
+".\system\1system\1system.bat"

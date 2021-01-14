@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0016 -E:\801CS\system\error\error02.bat
+::Document 0016 -.\system\error\error02.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30
@@ -27,7 +27,7 @@ echo.
 set/p choice=	您需要运行的选项：
 if %choice%==1 (
 ping -n 2 localhost>nul
-"E:\801CS\backup\backup.bat"
+".\backup\backup.bat"
 )
 if %choice%==2 (
 cls
@@ -35,17 +35,17 @@ echo.
 echo.
 echo 	请稍等，将以默认模式跳过检查。
 title Skip the Check...0/3
-echo [检查被跳过]>E:\801CS\system\check\checked.txt
+echo [检查被跳过]>.\system\check\checked.txt
 ping -n 2 localhost>nul
 title Skip the Check...1/3
-echo color 07>E:\801CS\system\color\color3.bat
-echo "E:\801CS\system\main\CCCommand.bat">E:\801CS\system\color\color3.bat
+echo color 07>.\system\color\color3.bat
+echo ".\system\main\CCCommand.bat">.\system\color\color3.bat
 ping -n 2 localhost>nul
 title Skip the Check...2/3
-del "E:\801CS\八一班大巢管理系统普通版.bat"
-copy "E:\801CS\system\1system\八一班大巢管理系统普通版TEMP.bat" "E:\801CS\">nul 
-ren "E:\801CS\八一班大巢管理系统普通版TEMP.bat" "八一班大巢管理系统普通版.bat"
-echo "E:\801CS\system\mode\NormalMode.bat">>"E:\801CS\八一班大巢管理系统普通版.bat"
+del ".\八一班大巢管理系统普通版.bat"
+copy ".\system\1system\八一班大巢管理系统普通版TEMP.bat" ".\">nul 
+ren ".\八一班大巢管理系统普通版TEMP.bat" "八一班大巢管理系统普通版.bat"
+echo ".\system\mode\NormalMode.bat">>".\八一班大巢管理系统普通版.bat"
 ping -n 2 localhost>nul
 title Skip the Check...3/3 
 echo.
@@ -58,7 +58,7 @@ echo 	3.首启动模式：普通模式（NormalMode）
 echo.
 echo 	按任意键重新启动。
 pause>nul
-"E:\801CS\八一班大巢管理系统普通版.bat"
+".\八一班大巢管理系统普通版.bat"
 )
 if %choice%==3 (
 echo.

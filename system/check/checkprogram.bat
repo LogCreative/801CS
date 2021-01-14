@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0004 -E:\801CS\system\check\checkprogram.bat
+::Document 0004 -.\system\check\checkprogram.bat
 ::2014/6/4
 ::--------------------------------------------------
 ping -n 1 localhost>nul
@@ -13,7 +13,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -32,7 +32,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -70,7 +70,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -86,7 +86,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -104,7 +104,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -215,7 +215,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -301,7 +301,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -310,7 +310,7 @@ echo 第二部分 校验安装
 echo.
 echo 请稍等...
 echo.
-echo %date%  %time:~0,8%>E:\801CS\system\check\checked.txt
+echo %date%  %time:~0,8%>.\system\check\checked.txt
 ping -n 2 localhost>nul
 echo.
 echo 第二部分完成检查。
@@ -320,7 +320,7 @@ echo ★第一次运行
 echo ──────────────────────────────
 echo 检验程序版本/检验系统版本：
 echo.
-type E:\801CS\system\check\checkver.txt
+type .\system\check\checkver.txt
 echo.
 echo -----------------------------------------
 echo.
@@ -328,9 +328,9 @@ title 801CS-第一次运行-第三部分
 echo 第三部分 个性化
 echo.
 pause
-"E:\801CS\system\color\color.bat"
+".\system\color\color.bat"
 :error
-"E:\801CS\system\error\error03.bat"
+".\system\error\error03.bat"
 :dataerror
 mshta vbscript:msgbox("在校验安装包时发生了错误。原因可能是您未按照正确的位置安放数据文件，或者是文件损坏而无法打开。",16,"错误")(window.close)
 echo 第三阶段校验错误。

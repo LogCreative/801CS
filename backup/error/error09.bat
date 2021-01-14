@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0023 -E:\801CS\system\error\error09.bat
+::Document 0023 -.\system\error\error09.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30

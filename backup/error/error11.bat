@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0025 -E:\801CS\system\error\error11.bat
+::Document 0025 -.\system\error\error11.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30

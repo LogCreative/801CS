@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0024 -E:\801CS\system\error\error10.bat
+::Document 0024 -.\system\error\error10.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30

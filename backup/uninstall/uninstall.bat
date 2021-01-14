@@ -3,14 +3,14 @@ setlocalenabledelayedexpansion
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0032 -E:\801CS\system\uninstall\uninstall.bat
+::Document 0032 -.\system\uninstall\uninstall.bat
 ::2014/6/4
 ::--------------------------------------------------
 cls
 title 卸载 八一班大巢管理系统
 echo 感谢您使用 八一班大巢管理系统 ！
 echo 系统版本：
-type E:\801CS\system\ver.txt
+type .\system\ver.txt
 echo.
 echo.
 ping -n 3 localhost>nul
@@ -24,7 +24,7 @@ echo.
 echo 收件人：longlaoda123456@qq.com
 echo QQ：龙老大（1045662435）
 echo.
-start "E:\data\dotx\八一班大巢管理系统反馈模版.dotx"
+start ".\data\dotx\八一班大巢管理系统反馈模版.dotx"
 echo 再次感谢。
 )
 if %a%==2 (
@@ -43,7 +43,7 @@ echo ★卸载 八一班大巢管理系统
 echo ─────────────────────────────────────────────────────────────────────────────────────────
 echo 卸载版本/卸载系统版本：
 echo.
-type E:\801CS\system\uninstall\uninstallver.txt
+type .\system\uninstall\uninstallver.txt
 echo.
 echo -----------------------------------------
 echo 正在卸载...
@@ -52,48 +52,48 @@ echo 请勿关闭本窗口。
 echo.
 title 正在卸载0%%
 echo 正在删除数据库...
-del E:\801CS\data\ /q
+del .\data\ /q
 echo 数据库已删除。
 title 正在卸载■10%% 
 ping -n 3 localhost>nul
 echo 正在删除1system...
-del E:\801CS\system\1system\ /q
+del .\system\1system\ /q
 echo 1system已删除。
 ping -n 1 localhost>nul
 echo 正在删除check...
-del E:\801CS\system\check\ /q
+del .\system\check\ /q
 echo check已删除。
 title 正在卸载■■20%% 
 ping -n 1 localhost>nul
 echo 正在删除color...
-del E:\801CS\system\color\ /q
+del .\system\color\ /q
 ping -n 1 localhost>nul
 echo color已删除。
 ping -n 1 localhost>nul
 echo 正在删除connect...
-del E:\801CS\system\connect\ /q
+del .\system\connect\ /q
 ping -n 1 localhost>nul
 echo connect已删除。
 title 正在卸载■■■30%% 
 ping -n 1 localhost>nul
 echo 正在删除main...
-del E:\801CS\system\main\ /q
+del .\system\main\ /q
 ping -n 1 localhost>nul
 echo main已删除。
 ping -n 1 localhost>nul
 echo 正在删除mode...
-del E:\801CS\system\mode\ /q
+del .\system\mode\ /q
 ping -n 1 localhost>nul
 echo mode已删除。
 title 正在卸载■■■■40%% 
 ping -n 1 localhost>nul
 echo 正在删除other...
-del E:\801CS\system\mode\ /q
+del .\system\mode\ /q
 ping -n 1 localhost>nul
 echo other已删除。
 ping -n 1 localhost>nul
 echo 正在删除error...
-del E:\801CS\system\mode\ /q
+del .\system\mode\ /q
 ping -n 1 localhost>nul
 echo error已删除。
 title 正在卸载■■■■■50%% 
@@ -114,14 +114,14 @@ color 4f
 title 正在卸载■■■■■■60%% 
 ping -n 2 localhost>nul
 echo 正在删除backup（备份）...
-del E:\801CS\backup\ /q
+del .\backup\ /q
 ping -n 3 localhost>nul
 echo backup（备份）已删除。
 title 正在卸载■■■■■■■■80%% 
 ping -n 1 localhost>nul
 echo 正在删除其他...
-del E:\801CS\八一班大巢管理系统普通版.bat /q
-del E:\801CS\八一班大巢管理系统使用指南.docx /q
+del .\八一班大巢管理系统普通版.bat /q
+del .\八一班大巢管理系统使用指南.docx /q
 ping -n 1 localhost>nul
 echo 其他已删除。
 title 正在卸载■■■■■■■■■90%% 
@@ -140,8 +140,8 @@ pause
 ping -n 2 localhost>nul
 title 正在卸载■■■■■■■■■100%% 
 ping -n 2 localhost>nul
-del E:\801CS\ /q
+del .\ /q
 )
 if %b%==2 (
-"E:\801CS\八一班大巢管理系统普通版.bat"
+".\八一班大巢管理系统普通版.bat"
 )

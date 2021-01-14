@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0030 -E:\801CS\system\mode\HighMode.bat
+::Document 0030 -.\system\mode\HighMode.bat
 ::2014/6/4
 ::--------------------------------------------------
 color 97
@@ -60,11 +60,11 @@ echo 八一班大巢纪律委员会(1)授权
 echo Discipline Committee of “Group of Class 801”(1) Authorized
 echo.
 echo 版本：
-type E:\801CS\system\ver.txt
+type .\system\ver.txt
 echo.
 echo.
 echo 第一运行时间：
-type E:\801CS\system\check\checked.txt
+type .\system\check\checked.txt
 echo.
 echo 版权所有 翻版必究 李版权编号：(LC)No.0016
 echo --------------------------------------------------------
@@ -76,5 +76,5 @@ echo 输入help查询命令信息。
 echo.
 echo 注意小写字母！
 echo.
-if not exist E:\801CS\system\main\HighCommand.bat ("E:\801CS\system\error\error06.bat")
-"E:\801CS\system\main\HighCommand.bat"
+if not exist .\system\main\HighCommand.bat (".\system\error\error06.bat")
+".\system\main\HighCommand.bat"

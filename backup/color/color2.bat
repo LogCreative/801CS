@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0006 -E:\801CS\system\color\color2.bat
+::Document 0006 -.\system\color\color2.bat
 ::2014/6/4
 ::--------------------------------------------------
 cls
@@ -26,8 +26,8 @@ echo.
 echo 如07显示背景为黑色，字体为白色。
 echo.
 set/p a=【颜色】
-echo color %a%>E:\801CS\system\color\color3.bat
-echo "E:\801CS\system\main\CCCommand.bat">>E:\801CS\system\color\color3.bat
+echo color %a%>.\system\color\color3.bat
+echo ".\system\main\CCCommand.bat">>.\system\color\color3.bat
 color %a%
 echo.
 echo 您现在的颜色已成为
@@ -36,5 +36,5 @@ echo.
 pause
 echo 准备重新启动系统。
 ping -n 5 localhost>nul
-"E:\801CS\八一班大巢管理系统普通版.bat"
+".\八一班大巢管理系统普通版.bat"
 pause

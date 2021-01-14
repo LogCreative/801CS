@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0031 -E:\801CS\system\mode\NormalMode.bat
+::Document 0031 -.\system\mode\NormalMode.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=50 lines=25
@@ -49,11 +49,11 @@ echo 八一班大巢纪律委员会(1)授权
 echo Discipline Committee of “Group of Class 801”(1) Authorized
 echo.
 echo 版本：
-type E:\801CS\system\ver.txt
+type .\system\ver.txt
 echo.
 echo.
 echo 第一运行时间：
-type E:\801CS\system\check\checked.txt
+type .\system\check\checked.txt
 echo.
 echo 版权所有 翻版必究 李版权编号：(LC)No.0016
 echo --------------------------------------------------------
@@ -61,5 +61,5 @@ echo.
 echo 输入help可查看命令帮助信息
 echo.
 echo 不要输错命令！注意输入小写字母！
-if not exist E:\801CS\system\main\CCCommand.bat ("E:\801CS\system\error\error04.bat")
-"E:\801CS\system\color\color3.bat"
+if not exist .\system\main\CCCommand.bat (".\system\error\error04.bat")
+".\system\color\color3.bat"

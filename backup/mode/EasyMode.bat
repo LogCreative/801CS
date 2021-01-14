@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0029 -E:\801CS\system\mode\EasyMode.bat
+::Document 0029 -.\system\mode\EasyMode.bat
 ::2014/6/4
 ::--------------------------------------------------
 color 07
@@ -39,11 +39,11 @@ echo 八一班大巢纪律委员会(1)授权
 echo.
 ping -n 1 localhost>nul
 echo 版本:
-type E:\801CS\system\ver.txt
+type .\system\ver.txt
 echo.
 echo.
 echo ————————————————————————————
 echo.
 echo 输入help可查看命令帮助信息
-if not exist E:\801CS\system\main\EasyCommand.bat ("E:\801CS\system\error\error05.bat")
-"E:\801CS\system\main\EasyCommand.bat"
+if not exist .\system\main\EasyCommand.bat (".\system\error\error05.bat")
+".\system\main\EasyCommand.bat"

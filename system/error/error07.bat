@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0021 -E:\801CS\system\error\error07.bat
+::Document 0021 -.\system\error\error07.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30
@@ -26,7 +26,7 @@ echo.
 set/p choice=	您需要运行的选项：
 if %choice%==1 (
 ping -n 2 localhost>nul
-if not exist backupall.bat ("E:\801CS\backup\error 09.bat")
+if not exist backupall.bat (".\backup\error 09.bat")
 "backupall.bat"
 )
 if %choice%==2 (

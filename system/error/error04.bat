@@ -2,7 +2,7 @@
 ::-------------------WARNING------------------------
 ::This is a system document,you shouldn't change it.
 ::Group of class 801 Control System
-::Document 0018 -E:\801CS\system\error\error04.bat
+::Document 0018 -.\system\error\error04.bat
 ::2014/6/4
 ::--------------------------------------------------
 mode con:cols=75 lines=30
@@ -26,7 +26,7 @@ echo.
 set/p choice=	您需要运行的选项：
 if %choice%==1 (
 ping -n 2 localhost>nul
-"E:\801CS\backup\backuppart.bat"
+".\backup\backuppart.bat"
 )
 if %choice%==2 (
 echo.

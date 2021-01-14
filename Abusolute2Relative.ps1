@@ -19,5 +19,6 @@ Get-ChildItem . '*.bat' -Force -Recurse | ForEach-Object -Process {
     (Get-Content $file)|
         ForEach-Object { $_ -replace 'E:\\801CS','.'} |      # Change Abusolute Position
         Out-File $file -Encoding 936 -Force               # TODO: Output file with Chinese Encoding? gbk?  It's still unable to output in Powershell 7.1
+        # No appearent solution now.
 
 }
