@@ -6,5 +6,5 @@
 /八一班大巢管理系统使用指南.docx
 * copy.txt
 *.docx
-data/condoc/*
-data/dotx/*
+condoc/
+dotx/
