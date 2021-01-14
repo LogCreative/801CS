@@ -6,6 +6,8 @@ Group of Class 801 Control System
 >
 > (LC) Log Creative 2013 - 2014
 
+![](program.gif)
+
 ## Repository Structure
 
 ```
@@ -26,7 +28,7 @@ You can get the help documentation on the [Wiki Page](https://github.com/LogCrea
 
 - This program is a micro system based on batch files, which is editable without any compilation. This **SoB** (System on Batch) method is a glimpse of my two other systems (DSS, FS).
 - This program shows **how batch files interate with each other** by using condition statements only and giving commands through commandline.
-- This program shows three machenism for a system based on batch: **check,backup and uninstall**. A good practice for file manipulation.
+- This program shows three machenism for a system based on batch: **check,backup and uninstall**. A good practice for file manipulation. The **settings** are embeddingly **saved** in those batch files (modify the original code file to realize the customazation).
 - This program uses an external program **image.exe** to **show images on terminals**.
 
 ## Compilation
