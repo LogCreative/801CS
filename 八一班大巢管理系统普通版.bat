@@ -5,7 +5,7 @@
 ::Document 0003 -.\system\1system\八一班大巢管理系统TEMP.bat（八一班大巢管理系统.bat）
 ::2014/6/4
 ::--------------------------------------------------
-if not exist E:\ ("error01.bat")
+::if not exist E:\ ("error01.bat")
 ::是否有E盘
 if exist .\system\check\checked.txt goto 1
 ::是否已检查
