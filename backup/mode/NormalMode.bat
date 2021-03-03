@@ -59,7 +59,7 @@ echo 版权所有 翻版必究 李版权编号：(LC)No.0016
 echo --------------------------------------------------------
 echo.
 echo 输入help可查看命令帮助信息
-echo.
-echo 不要输错命令！注意输入小写字母！
+::echo.
+::echo 不要输错命令！注意输入小写字母！
 if not exist .\system\main\CCCommand.bat (".\system\error\error04.bat")
 ".\system\color\color3.bat"

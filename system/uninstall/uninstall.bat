@@ -21,8 +21,6 @@ if %a%==1 (
 echo 即将为您打开反馈模板。
 echo 您需要手动用邮箱或聊天方式发送。
 echo.
-echo 收件人：longlaoda123456@qq.com
-echo QQ：龙老大（1045662435）
 echo.
 start ".\data\dotx\八一班大巢管理系统反馈模版.dotx"
 echo 再次感谢。

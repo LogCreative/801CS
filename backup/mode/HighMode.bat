@@ -73,8 +73,8 @@ echo 在这种模式下，您能运行一些高级功能。
 echo 但是普通功能暂时无法运行。
 echo.
 echo 输入help查询命令信息。
-echo.
-echo 注意小写字母！
+::echo.
+::echo 注意小写字母！
 echo.
 if not exist .\system\main\HighCommand.bat (".\system\error\error06.bat")
 ".\system\main\HighCommand.bat"
